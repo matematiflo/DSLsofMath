@@ -6,6 +6,7 @@ The book and the repository are used in a BSc-level course at Chalmers
 and GU.
 
 The main course homepage is in the Canvas LMS:
+
 * [Main course page](https://chalmers.instructure.com/courses/22256)
 
 Course codes: [DAT326](https://www.student.chalmers.se/sp/course?course_id=32245) / [DIT983](http://kursplaner.gu.se/english/DIT983.pdf)
@@ -17,9 +18,9 @@ Course codes: [DAT326](https://www.student.chalmers.se/sp/course?course_id=32245
 * 2022: Course book available from [Amazon](https://www.amazon.co.uk/dp/184890388X) and from [other sources](https://www.adlibris.com/se/bok/domain-specific-languages-of-mathematics-9781848903883). [Bibtex entry](admin/JanssonIonescuBernardyDSLsofMathBook2022.bib).
 * [Lecture note snapshots](L/snapshots/) with drafts of the full course book
 * [YouTube playlist](https://www.youtube.com/playlist?list=PLf5C73P7ab-5sdvsqCjnF8iaYOtXMRNaZ) collecting the 2022 lectures (all in English)
-    * Also available: [the recorded lectures from the 2021 course instance](https://www.youtube.com/playlist?list=PLf5C73P7ab-4kc8Z4S7adKdm-nTkn-ND-) (most in Swedish, some in English).
+  * Also available: [the recorded lectures from the 2021 course instance](https://www.youtube.com/playlist?list=PLf5C73P7ab-4kc8Z4S7adKdm-nTkn-ND-) (most in Swedish, some in English).
 
-with 
+with
 
 ## Contributors
 
@@ -27,7 +28,7 @@ with
 * First version (and continued support): Cezar Ionescu (cezar AT)
 * Book co-author: Jean-Philippe Bernardy
 * Teaching assistants:
-  * 2023: David Wärn (warnd AT), Felix Cherubini (felixche AT), Sikai Lu (sikai AT), 
+  * 2023: David Wärn (warnd AT), Felix Cherubini (felixche AT), Sikai Lu (sikai AT),
   * 2022: Sólrún Einarsdóttir (slrn AT), David Wärn (warnd AT), and Felix Cherubini (felixche AT)
   * 2021: Maximilian Algehed (algehed AT) and Víctor López Juan (lopezv AT)
   * 2020: Sólrún Einarsdóttir (slrn AT) and Víctor López Juan (lopezv AT)
@@ -61,16 +62,16 @@ Learning outcomes as in the
 [course syllabus](https://www.student.chalmers.se/sp/course?course_id=32245).
 
 * Knowledge and understanding
-    * design and implement a DSL (Domain-Specific Language) for a new domain
-    * organize areas of mathematics in DSL terms
-    * explain main concepts of elementary real and complex analysis, algebra, and linear algebra
+  * design and implement a DSL (Domain-Specific Language) for a new domain
+  * organize areas of mathematics in DSL terms
+  * explain main concepts of elementary real and complex analysis, algebra, and linear algebra
 * Skills and abilities
-    * develop adequate notation for mathematical concepts
-    * perform calculational proofs
-    * use power series for solving differential equations
-    * use Laplace transforms for solving differential equations
+  * develop adequate notation for mathematical concepts
+  * perform calculational proofs
+  * use power series for solving differential equations
+  * use Laplace transforms for solving differential equations
 * Judgement and approach
-    * discuss and compare different software implementations of mathematical concepts
+  * discuss and compare different software implementations of mathematical concepts
 
 The course is elective for both computer science and mathematics
 students at both Chalmers and GU.
@@ -78,18 +79,18 @@ students at both Chalmers and GU.
 ## Course setup
 
 * Lectures
-    * Introduction: Haskell, complex numbers, syntax, semantics, evaluation, approximation
-    * Basic concepts of analysis: sequences, limits, convergence, ...
-    * Types and mathematics: logic, quantifiers, proofs and programs, Curry–Howard, ...
-        * Type classes, derivatives, differentiation, calculational proofs
-    * Domain-Specific Languages and algebraic structures, algebras, homomorphisms
-    * Polynomials, series, power series
-    * Power series and differential equations, exp, sin, log, Taylor series, ...
-    * Linear algebra: vectors, matrices, functions, bases, dynamical systems as matrices and graphs
-    * Laplace transform: exp, powers series cont., solving PDEs with Laplace
+  * Introduction: Haskell, complex numbers, syntax, semantics, evaluation, approximation
+  * Basic concepts of analysis: sequences, limits, convergence, ...
+  * Types and mathematics: logic, quantifiers, proofs and programs, Curry–Howard, ...
+  * Type classes, derivatives, differentiation, calculational proofs
+  * Domain-Specific Languages and algebraic structures, algebras, homomorphisms
+  * Polynomials, series, power series
+  * Power series and differential equations, exp, sin, log, Taylor series, ...
+  * Linear algebra: vectors, matrices, functions, bases, dynamical systems as matrices and graphs
+  * Laplace transform: exp, powers series cont., solving PDEs with Laplace
 * Weekly exercise sessions
-    * Half time helping students solve problems in small groups
-    * Half time joint problem solving at the whiteboard
+  * Half time helping students solve problems in small groups
+  * Half time joint problem solving at the whiteboard
 
 ## Lectures
 
@@ -129,26 +130,25 @@ subdirectory: for example
 [2022-06/](Exam/2022-06/),
 [2022-08/](Exam/2022-08/).
 
-
 ## References
 
 Some important references:
 
 ### Functional programming
 
-- **Thinking Functionally with Haskell**, Richard Bird, Cambridge
+* **Thinking Functionally with Haskell**, Richard Bird, Cambridge
   University Press, 2014
   [URL](http://www.cs.ox.ac.uk/publications/books/functional/)
-- **Introduction to Functional Programming Using Haskell**, Richard
+* **Introduction to Functional Programming Using Haskell**, Richard
   Bird, Prentice Hall, 1998.  A previous (but clearly different)
   version of the above.
-- **An Introduction to Functional Programming**, Richard Bird and Phil
+* **An Introduction to Functional Programming**, Richard Bird and Phil
   Wadler, Prentice Hall, 1988. A previous (but clearly different)
   version of *both* of the above.
 
 ### DSLs
 
-- **Functional Programming for Domain-Specific Languages**, Jeremy
+* **Functional Programming for Domain-Specific Languages**, Jeremy
   Gibbons.  In *Central European Functional Programming School 2015*,
   LNCS 8606, 2015.
   [URL](http://link.springer.com/chapter/10.1007%2F978-3-319-15940-9_1)
@@ -156,7 +156,7 @@ Some important references:
   This is currently *the* standard reference to DSLs for the
   functional programmer.
 
-- **Folding Domain-Specific Languages: Deep and Shallow Embeddings**,
+* **Folding Domain-Specific Languages: Deep and Shallow Embeddings**,
   Jeremy Gibbons and Nicolas Wu,
   ICFP 2014. [URL](http://www.cs.ox.ac.uk/publications/publication7584-abstract.html)
 
@@ -165,19 +165,19 @@ Some important references:
   and the two videos of Jeremy presenting the most important ideas
   of DSLs in a very accessible way.
 
-- **Programming Languages**, Mike Spivey.  Lecture notes of a course
+* **Programming Languages**, Mike Spivey.  Lecture notes of a course
   given at the CS Department in Oxford.  Useful material for
   understanding the design and implementation of embedded DSLs.
   [URL](http://spivey.oriel.ox.ac.uk/corner/Programming_languages)
 
-- **Domain-Specific Languages**, Martin Fowler, 2011.
+* **Domain-Specific Languages**, Martin Fowler, 2011.
   [URL](http://martinfowler.com/books/dsl.html)
 
   The view from the object-oriented programming perspective.
 
 ### The computer science perspective
 
-- **Communicating Mathematics: Useful Ideas from Computer Science**,
+* **Communicating Mathematics: Useful Ideas from Computer Science**,
   Charles Wells, *American Mathematical Monthly*, May 1995.  [URL](http://www.cwru.edu/artsci/math/wells/pub/pdf/commath.pdf)
 
   This article was one of the main triggers of this course.
@@ -186,22 +186,22 @@ Some important references:
 
 ### Mathematics
 
-- **The Language of First-Order Logic, 3rd Edition**, Jon Barwise and John
+* **The Language of First-Order Logic, 3rd Edition**, Jon Barwise and John
   Etchemendy, 1993.  Out of print, but you can get it for one penny
   from Amazon UK.  A vast improvement over its successors (as Tony
   Hoare said about Algol 60).
 
-- **Mathematics: Form and Function**, Saunders Mac Lane, Springer 1986.
+* **Mathematics: Form and Function**, Saunders Mac Lane, Springer 1986.
   An overview of the relationships between the many mathematical
   domains.  Entertaining, challenging, rewarding.
   [Fulltext from the library](http://chalmers.summon.serialssolutions.com/sv-SE/search?ho=t&q=Mathematics%3A%20Form%20and%20Function)
 
-- **Functional Differential Geometry**, Gerald Jay Sussman and Jack
+* **Functional Differential Geometry**, Gerald Jay Sussman and Jack
   Wisdom, 2013, MIT.  A book about using programming as a means of
   understanding differential geometry.  Similar in spirit to the course,
   but more advanced and very different in form.  An earlier version
   appeared as an [AIM report](http://web.mit.edu/wisdom/www/AIM-2005-003.pdf).
 
-# License: CC-BY-NC-SA 4.0
+## License: CC-BY-NC-SA 4.0
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
